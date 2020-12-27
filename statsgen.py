@@ -3,7 +3,7 @@
 #
 # This tool is part of PACK (Password Analysis and Cracking Kit)
 #
-# VERSION 0.0.3
+# VERSION 0.0.4
 #
 # Copyright (C) 2013 Peter Kacherginsky
 # All rights reserved.
