@@ -17,7 +17,7 @@
 - [x] Refactor for use with Python>=3.6
 - [x] Cleanup / PEP8 / style
 - [x] Verify MacOS compatibility
-- [ ] Improve functionality somewhat
+- [x] Improve functionality somewhat
 (Added functionality: Ability to chose other languages than english to use with PyEnchant)
 
 statsgen.py
