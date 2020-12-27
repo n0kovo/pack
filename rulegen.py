@@ -33,7 +33,7 @@ class RuleGen:
     # Initialize Rule Generator class
     def __init__(
         self,
-        language="en",
+        language,
         providers="aspell,myspell",
         basename="analysis",
         threads=multiprocessing.cpu_count(),
@@ -1459,6 +1459,12 @@ if __name__ == "__main__":
         default="aspell,myspell",
         metavar="aspell,myspell",
     )
+    spelltune.add_option(
+        "--language",
+        help="Language for spellchecker to use",
+        default="en",
+        metavar="en",
+    )
     parser.add_option_group(spelltune)
 
     debug = OptionGroup(parser, "Debuggin options:")
@@ -1501,7 +1507,7 @@ if __name__ == "__main__":
 
     try:
         rulegen = RuleGen(
-            language="en",
+            language=options.language,
             providers=options.providers,
             basename=options.basename,
             threads=options.threads,
