@@ -1537,6 +1537,9 @@ if __name__ == "__main__":
     rulegen.hashcat = options.hashcat
     rulegen.quiet = options.quiet
 
+    # Make multiprocessing use fork method instead of spawn
+    multiprocessing.set_start_method("fork")
+
     # Custom wordlist
     if not options.word:
         if options.wordlist:
