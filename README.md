@@ -25,7 +25,9 @@ statsgen.py
 - [ ] Verify MacOS compatibility
 - [ ] Improve functionality somewhat
 
-### Password Analysis and Cracking Kit by Peter Kacherginsky (iphelix)
+========= IPHELIX README BELOW THIS LINE =========
+
+## Password Analysis and Cracking Kit by Peter Kacherginsky (iphelix)
 
 
 PACK (Password Analysis and Cracking Toolkit) is a collection of utilities developed to aid in analysis of password lists in order to enhance password cracking through pattern detection of masks, rules, character-sets and other password characteristics. The toolkit generates valid input files for Hashcat family of password crackers.
