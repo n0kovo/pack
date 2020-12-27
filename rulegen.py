@@ -1546,9 +1546,6 @@ if __name__ == "__main__":
     # Make multiprocessing use fork method instead of spawn
     multiprocessing.set_start_method("fork", force=True)
 
-    # Custom language
-    print("[*] Using language: \'{rulegen.enchant.tag}\'")
-
     # Custom wordlist
     if not options.word:
         if options.wordlist:
