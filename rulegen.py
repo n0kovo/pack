@@ -5,7 +5,7 @@
 #
 # This tool is part of PACK (Password Analysis and Cracking Kit)
 #
-# VERSION 0.0.3
+# VERSION 0.0.4
 #
 # Copyright (C) 2013 Peter Kacherginsky
 # All rights reserved.
@@ -25,7 +25,7 @@ from optparse import OptionParser, OptionGroup
 from tqdm import tqdm
 
 
-VERSION = "0.0.4"
+VERSION = "0.0.5"
 
 # Testing rules with hashcat --stdout
 HASHCAT_PATH = "hashcat/"
